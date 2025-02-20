@@ -99,18 +99,21 @@
   -->
 
 
-    <div class="row" style="text-align:center; padding-left:1rem; padding-right:1rem; padding-bottom:1rem;">
+  <div class="container" style="padding-bottom:2rem;">
+    <div class="row" style="text-align:center; padding-left:1rem; padding-right:1rem;">
       <div class="col-xs-12">
-        <video id="main-video" muted autoplay loop width="85%">
+        <video id="main-video" muted autoplay loop style="width:100%;">
           <source src="resources/grid_4x2_forward_reverse.mp4" type="video/mp4"> 
         </video>
       </div>
     </div>
+  </div>
   
+  <!-- Following TLDR and text content -->
   <div class="container">
     <p>
-      TLDR: We stylize splats with a text prompt by rendering views, editing them with a diffusion model given a text prompt, and then retraining the splat.
-      To edit the views consistently, we use <b>modified cross-attention</b> and a <b>task-specific controlnet</b>, with separate controls for depth and RGB edit strength.
+    TLDR: We stylize splats with a text prompt by rendering views, editing them with a diffusion model given a text prompt, and then retraining the splat.
+    To edit the views consistently, we use <b>modified cross-attention</b> and a <b>task-specific controlnet</b>, with separate controls for depth and RGB edit strength.
     </p>
     <h3>Abstract</h3>
     <hr />
